@@ -22,4 +22,4 @@ def Largest_Prime_Factor(n):
     return prime_factor
 
 # Printing the largest prime factor of input number
-print ("Largest prime factor of",n, "is", Largest_Prime_Factor(n))
+print ("Largest prime factor of",n, "is", Largest_Prime_Factor(int(n))
