@@ -1,4 +1,5 @@
-#Find the HCF of given numbers 
+#Find the LCM of given numbers 
+
 
 num1 = int(input ("Enter a number:"))
 num2 = int(input ("Enter a number:"))
@@ -24,6 +25,6 @@ def most_frequent(List, numbers):
         if(curr_frequency==len(numbers)):
             num.append(i)
     num.sort()
-    return num[-1]
+    return num[0]
 
-print(f"HCF of {num1}, {num2}, {num3} is ",most_frequent(factors, numbers))
+print(f"LCM of {num1}, {num2}, {num3} is ", most_frequent(factors, numbers))
